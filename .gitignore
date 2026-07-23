@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Raw data
+data/raw/
+train.csv
+
+# Generated model artefacts
+*.h5
+*.keras
+*.pkl
+*.joblib
